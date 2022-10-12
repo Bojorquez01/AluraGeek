@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+
+<html lang="es">
+
+  <head>
+
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Alura Geek</title>
+
+    <link rel="stylesheet" href="css/reset.css" />
+    
+  </head>
+
+  <body>
+
+    <header class="header">
+      <div class="logo--div" onclick="location.href='index.html'">
+        <img src="assets/img/Logo.png">
+      </div>
+
+    <section class="login--section">
+      <form class="formulario--login">
+        <h3>Iniciar Sesion</h3>
+
+        <input
+          type="email"
+          placeholder="Escriba su correo electronico"
+          id="email"
+        />
+
+        <input
+          type="password"
+          placeholder="Escriba su contraseña"
+          id="password"
+        />
+
+        <button class="formulario--button" onclick="validarUsuario();">
+          Entrar
+        </button>
+      </form>
+    </section>
+    <footer>
+      <p>Desarrollado por Oscar Alejandro Bojórquez Ruíz - 2022</p>
+    </footer>
+    <script src="js/rodapie.js"></script>
+  </body>
+</html>
